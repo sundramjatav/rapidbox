@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  width: 280px;
+  height: 380px;
+  position: relative;
+  background-color: black;
+  border-radius: 0.50rem;
+  font: bold;
+  font-size: medium;
+}
+
+.card1 {
+  width: 280px;
+  height: 380px;
+  position: relative;
+  background-color:#DFE1E6;
+  border-radius: 0.50rem;
+  font: bold;
+  font-size: medium;
+  overflow: hidden;
+}
+.card1 img {
+  height: 80%;
+  /* border-radius: 0.50rem; */
+  width: 100%;
+  object-fit: cover;
+}
+
+.card img {
+  height: 100%;
+  border-radius: 0.50rem;
+  width: 100%;
+  object-fit: cover;
+}
+.card-child {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 22%;
+  justify-content: space-between;
+  padding: 2%;
+  align-items: flex-end;
+  backdrop-filter: blur(8px);
+  background: #dfe1e6d1;
+  border-radius: 0.50rem;
+}
+
+.newcards {
+  height: 335px;
+  width: 200px;
+  padding: 1rem;
+  background-color: #a9acb5;
+  font-size: large;
+  text-align: center;
+  font-weight: lighter;
+  border-radius: 0.5rem;
+}
+
+.newcards-img img {
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.newcards-text2{
+  font-weight: bolder;
+  font-style: italic;
+  font-size: x-large;
+}
